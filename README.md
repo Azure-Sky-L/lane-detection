@@ -27,10 +27,10 @@
     + 2.不同instance的mean embedding vector（即在映射空间中聚类的中心点）要尽可能的远离
 
 - 即希望embedding vectors 在映射空间中的位置如下图所示：
- ![](./imgs/20180815205911772.png)
+ ![](./imgs/v2-e1e0958468e1b3ac4a776d2b2838582f_hd.jpg)
 
 + 图中所示的intra-cluster pull force 即为上述条件1，inter-cluster push force即为上述条件2
 
 * 为了满足这两个条件，文章进一步设计了Loss function。具体公式如下：
-![](./imgs/20180815205924529.png)
+![](./imgs/v2-96e7e28ab2727f2d544a9eb8c35c10a3_hd.jpg)
 
