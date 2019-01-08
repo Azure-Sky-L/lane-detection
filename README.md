@@ -23,3 +23,6 @@
 + 这篇文章最重要的是提出一个判别损失函数，其主要作用是：
     - 1. 同instance内部像素的embedding vector在映射空间中要尽可能的临近（L1、L2距离）
     + 2. 不同instance的mean embedding vector（即在映射空间中聚类的中心点）要尽可能的远离
+
+- 即希望embedding vectors 在映射空间中的位置如下图所示：
+ ![](./imgs/20180815205911772.png)
