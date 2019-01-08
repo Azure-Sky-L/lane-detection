@@ -18,4 +18,4 @@
     
   ![](./imgs/2086708701-0.jpg)
 
-- 说到这篇端到端的车道线检测，不得不提的是这篇文章中用到的一个聚类loss，同样是这篇文章的作者发表的一篇文章[《Semantic Instance Segmentation with a Discriminative Loss Function》][./1708.02551v1.pdf]
+- 说到这篇端到端的车道线检测，不得不提的是这篇文章中用到的一个聚类loss，同样是这篇文章的作者发表的一篇文章[《Semantic Instance Segmentation with a Discriminative Loss Function》](./1708.02551v1.pdf)
