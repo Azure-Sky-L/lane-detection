@@ -19,3 +19,7 @@
   ![](./imgs/2086708701-0.jpg)
 
 - 说到这篇端到端的车道线检测，不得不提的是这篇文章中用到的一个聚类loss，同样是这篇文章的作者发表的一篇文章[《Semantic Instance Segmentation with a Discriminative Loss Function》](./1708.02551v1.pdf)
+
++ 这篇文章最重要的是提出一个判别损失函数，其主要作用是：
+    - 1. 同instance内部像素的embedding vector在映射空间中要尽可能的临近（L1、L2距离）
+    + 2. 不同instance的mean embedding vector（即在映射空间中聚类的中心点）要尽可能的远离
