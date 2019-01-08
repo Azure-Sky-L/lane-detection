@@ -37,4 +37,11 @@
 ![](./imgs/v2-96e7e28ab2727f2d544a9eb8c35c10a3_hd.jpg)
 
 + 其中
+
 ![](./imgs/gif.gif)
+
+ * C代表groundtruth中instance数目，代表某个instance中的像素个数。代表instance中第i个像素产生的embedding vector，是groundtruth中该instance的所有像素对应的embedding vectors在映射空间中的中心（mean vector）。
+
+ + 最后一项为正则项，目的是让映射空间中每个cluster（对应于instance）的中心与原点的距离不要过远。
+
+ - 训练过程中使用ground truth作为instance mask。上述LOSS仅涉及同一类object的不同instance之间的聚类学习。如果要用到多类object，则需要分别对每个类计算LOSS并累加。
