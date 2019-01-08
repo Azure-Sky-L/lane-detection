@@ -36,3 +36,5 @@
 
 ![](./imgs/v2-96e7e28ab2727f2d544a9eb8c35c10a3_hd.jpg)
 
++ 其中
+![](./imgs/gif.gif)
