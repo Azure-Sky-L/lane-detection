@@ -40,7 +40,9 @@
 
 ![](./imgs/gif.gif)
 
- * C代表groundtruth中instance数目，Nc代表某个instance中的像素个数。Xi 代表instance中第i个像素产生的embedding vector，![](./imgs/gif 2.gif)是groundtruth中该instance的所有像素对应的embedding vectors在映射空间中的中心（mean vector）。
+ * C代表groundtruth中instance数目，Nc代表某个instance中的像素个数。Xi 代表instance中第i个像素产生的embedding vector
+  
+ + ![](./imgs/gif2.gif)是groundtruth中该instance的所有像素对应的embedding vectors在映射空间中的中心（mean vector）。
 
  + 最后一项为正则项，目的是让映射空间中每个cluster（对应于instance）的中心与原点的距离不要过远。
 
