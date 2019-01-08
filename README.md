@@ -47,3 +47,5 @@
  + 最后一项为正则项，目的是让映射空间中每个cluster（对应于instance）的中心与原点的距离不要过远。
 
  - 训练过程中使用ground truth作为instance mask。上述LOSS仅涉及同一类object的不同instance之间的聚类学习。如果要用到多类object，则需要分别对每个类计算LOSS并累加。
+ 
+ + 这个 loss 笔者已用 Pytorch 实现，有兴趣的同学可参照 [dis_loss](./dic_loss.py)
