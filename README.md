@@ -49,4 +49,3 @@
  - 训练过程中使用ground truth作为instance mask。上述LOSS仅涉及同一类object的不同instance之间的聚类学习。如果要用到多类object，则需要分别对每个类计算LOSS并累加。
  
  + 关于Discriminative Loss 笔者已用 Pytorch 实现 [Loss_functions](./Loss_functions_20190110.py)
- - 如果有帮到你，随手 star 哟
